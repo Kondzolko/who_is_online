@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Who is Online Gem JavaScript depends on jQuery. If you're using Rails 5.1+, add the jquery-rails gem to your Gemfile:
+gem 'jquery-rails'
+
+    gem 'jquery-rails'
+
+Add to application.js:
+
+    = require jquery
+    = require who_is_online
+    
 
 ## Development
 
