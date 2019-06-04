@@ -9,7 +9,7 @@ module WhoIsOnline
     module Base
       # Get path for migration template
       def source_root
-        @_sk_progress_bar_source_root ||= File.expand_path(File.join('../who_is_online', generator_name, 'templates'), __FILE__)
+        @_who_is_online_source_root ||= File.expand_path(File.join('../who_is_online', generator_name, 'templates'), __FILE__)
       end
     end
   end
